@@ -1,6 +1,6 @@
 # Ingenieria-Web
 
-- Repositorio con la documentación pertinente al proyecto de Ingeniría Web.
+- Repositorio con la documentación pertinente al proyecto de Ingeniería Web.
 
 ## Participantes: 
 
