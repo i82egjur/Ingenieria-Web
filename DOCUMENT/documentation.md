@@ -2,7 +2,7 @@
 ## Introucción
 
 
-# BRAINSTORM
+# BRAINSTORMING
 
 - Gestión de usuarios  
     - Login 
