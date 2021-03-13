@@ -25,4 +25,18 @@
 
     
     
+    ## Introducción 
+    Hoy en día, es prácticamente saber de todo, y como dice el dicho mas vale saber hacer una sola casoa, pero csaber hacerla bien. Si nos llevamos este razonamiento al mundo laboral, nadie es un experto en todo y por tanto, siempre se va anecesitar de la ayuda de alguien más a la hora de llevar a cabo un trabajo o tarea determinada. Aquí surje un problema, y es que si no sabemos de alguien que sea bueno o que sepa hacer lo que nosotros no, es dificil contactar con un experto que sea bueno y confiable ya que, para nuestro trabajo, queremos siempre al mejor o por lo menos, alguien que lo acabe de la mejor forma posible. Pues bien, con nuestra idea de proyecto, podemos solucionar varios de estos problemas.
+    
+    Nuestra idea principal es la de crear una red social la cual permita que los usuarios que la usen, tengan a su disposición todas las herramientas necesarias para poder buscar y formar un equipo para realizar cualquier tipo de trabajo, al igual que los trabajoadores y expertos pueden ofrecerse, especificando sus intereses, proyectos en los que han trabajado, vaoloración media de la gente que ha trabajado con ellos y aquellos campos en los que destacan, así la gente podrá concactarle cuando necesiten a alguien con sus conocimientos para cualquier trabajo. 
+    
+    La aplicación dispondrá de un chat entre usuarios que facilitará la comuicación entre usuar sin proporcionar información personal, como puede ser teléfono o correo. Además se podrán dejar opiniones y valoraciones sobre los usuarios, para que aquellos que resulten no ser tan profesinales, no engañen a los demás ya que el trabajo es un tema muy serio e importante como para que se contrate gente que puede ser un fraude.
+    
+    Los usuarios pueden mostrar los proyectos que tienen que llevar a cabo y el personal que necesiten. Con este sistema, aquellos que en su perfil hayan mencionado que saben del tema y pueden trabajar, podrán ve en su perfil estas solicitudes. Además habrá una opción de notificación para aquellos que la activen, de forma que cada vez aue se introduzca en la página un nuevo proyecto en el cual se necesetie a alguien con os conocimientos del usuario, se le notificará por correo o directamente a la aplicación para que este pueda estar actualizao e informado.
+    
+    la aplicación también permitirá a los usuarios indicar si se encuentran realalizando un proyecto, si están libres, o si por ciertos motivos, no puede trabajar.
+    
+    
     ## Requisitos
+    
+    
