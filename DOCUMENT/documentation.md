@@ -38,15 +38,15 @@
     
     
     ## Requisitos
-   El sistema debe permitir registrarse en la aplicación.
-   El sistema debe permitir iniciar sesión en la palicación.
-   El sistema debe incluir un chat entre los suarios.
-   El sistema debe guardar el correo, nombre, apellidos, teléfono y contraseña de los usuarios.
-   El sistema guardará las "aficiones/intereses" de los usuarios.
-   El sistema debe permitir crear anuncioas para solicitar algún puesto.
-   El sistema guardará una brebe ddescripción o biografiñia de los usuarios.
-   El sistema permitirá la puntuación de los usuarios.
-   El sistema debe mostrar el estado de los usuarios, indicando si están iniciando un proyecto, están libres...
+   - El sistema debe permitir registrarse en la aplicación.
+   - El sistema debe permitir iniciar sesión en la palicación.
+   - El sistema debe incluir un chat entre los suarios.
+   - El sistema debe guardar el correo, nombre, apellidos, teléfono y contraseña de los usuarios.
+   - El sistema guardará las "aficiones/intereses" de los usuarios.
+   - El sistema debe permitir crear anuncioas para solicitar algún puesto.
+   - El sistema guardará una brebe ddescripción o biografiñia de los usuarios.
+   - El sistema permitirá la puntuación de los usuarios.
+   - El sistema debe mostrar el estado de los usuarios, indicando si están iniciando un proyecto, están libres...
    
     
     
