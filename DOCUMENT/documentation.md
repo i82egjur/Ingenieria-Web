@@ -26,7 +26,7 @@
     
     
     ## Introducción 
-    Hoy en día, es prácticamente saber de todo, y como dice el dicho mas vale saber hacer una sola casoa, pero csaber hacerla bien. Si nos llevamos este razonamiento al mundo laboral, nadie es un experto en todo y por tanto, siempre se va anecesitar de la ayuda de alguien más a la hora de llevar a cabo un trabajo o tarea determinada. Aquí surje un problema, y es que si no sabemos de alguien que sea bueno o que sepa hacer lo que nosotros no, es dificil contactar con un experto que sea bueno y confiable ya que, para nuestro trabajo, queremos siempre al mejor o por lo menos, alguien que lo acabe de la mejor forma posible. Pues bien, con nuestra idea de proyecto, podemos solucionar varios de estos problemas.
+    Hoy en día, es prácticamente imposible saber de todo, y como dice el dicho mas vale saber hacer una sola casa, pero saber hacerla bien. Si nos llevamos este razonamiento al mundo laboral, nadie es un experto en todo y por tanto, siempre se va a necesitar de la ayuda de alguien más a la hora de llevar a cabo un trabajo o tarea determinada. Aquí surge un problema, y es que si no sabemos de alguien que sea bueno o que sepa hacer lo que nosotros no, es dificil contactar con un experto que sea bueno y confiable ya que, para nuestro trabajo, queremos siempre al mejor o por lo menos, alguien que lo acabe de la mejor forma posible. Pues bien, con nuestra idea de proyecto, podemos solucionar varios de estos problemas.
     
     Nuestra idea principal es la de crear una red social la cual permita que los usuarios que la usen, tengan a su disposición todas las herramientas necesarias para poder buscar y formar un equipo para realizar cualquier tipo de trabajo, al igual que los trabajoadores y expertos pueden ofrecerse, especificando sus intereses, proyectos en los que han trabajado, vaoloración media de la gente que ha trabajado con ellos y aquellos campos en los que destacan, así la gente podrá concactarle cuando necesiten a alguien con sus conocimientos para cualquier trabajo. 
     
@@ -38,5 +38,15 @@
     
     
     ## Requisitos
+   El sistema debe permitir registrarse en la aplicación.
+   El sistema debe permitir iniciar sesión en la palicación.
+   El sistema debe incluir un chat entre los suarios.
+   El sistema debe guardar el correo, nombre, apellidos, teléfono y contraseña de los usuarios.
+   El sistema guardará las "aficiones/intereses" de los usuarios.
+   El sistema debe permitir crear anuncioas para solicitar algún puesto.
+   El sistema guardará una brebe ddescripción o biografiñia de los usuarios.
+   El sistema permitirá la puntuación de los usuarios.
+   El sistema debe mostrar el estado de los usuarios, indicando si están iniciando un proyecto, están libres...
+   
     
     
