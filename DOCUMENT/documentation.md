@@ -47,6 +47,17 @@
    - El sistema guardará una brebe ddescripción o biografiñia de los usuarios.
    - El sistema permitirá la puntuación de los usuarios.
    - El sistema debe mostrar el estado de los usuarios, indicando si están iniciando un proyecto, están libres...
+
+
+    ## Objetivos
+    Con esta aplicación, permitimos a muchos estudiantes involucrarse en proyectos los cuales les brindan experiencias colaborando con otros estudiantes que compartan sus mismas aficiones. Por lo que, la aplicación incorpora un chat en el que los estudiantes podrán comunicarse de una forma rápida y fácil. 
+
+    Además, tendrán la oportunidad de llevar a cabo aquellos proyectos que tienen en mente y que por tales circunstancias, ya sea dinero, falta de personal, etc, no han podido hacer realidad. 
+
+    Por otro parte, los miembros deberán exponer sus capacidades, con las cuales ellos piensen que pueden ayudar a otros, de esta forma otras personas podrán buscar lo que realmente les hace falta para cada proyecto. La aplicación, también permite valorar el trabajo realizado por la personas que han colaborado en el proyecto, dejando así constancia de cuánto y en qué aspectos han contribuido. 
+
+    Finalmente, remarcar que exponiendo sus capacidades e incluyendo sus valoraciones, podremos ayudar a que el estudiante se dé a conocer entre muchos otros, garantizandole futuras oportunidades de trabajo en empresas, más personas queriendo colaborar con él, etc. En definitiva, garantizar un futuro prometedor. 
+
    
     
     
