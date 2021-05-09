@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  }
+  
+  *:focus {
+      outline: none;
+  }
+  body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #45489a;
+
+  background-image: url("../img/fondoLogin.jpg");
+
+  padding: 50px;
+  }
+  .login {
+  margin: 40px auto;
+  width: 30%;
+  }
+  .login-screen {
+  background-color: #FFF;
+  padding: 20px;
+  border-radius: 5px
+  }
+  
+  .app-title {
+  text-align: center;
+  color: #777;
+  }
+  
+  .login-form {
+  text-align: center;
+  }
+  .control-group {
+  margin-bottom: 10px;
+  }
+  
+  input {
+    text-indent:15px;
+  text-align: center;
+  background-color: #ECF0F1;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 200;
+  padding: 6px 0;
+  width: 100%;
+  transition: border .5s;
+  margin-right: auto;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  }
+  
+  input:focus {
+  border: 2px solid #45489a;
+  box-shadow: none;
+  }
+  
+  .btn {
+    border: 2px solid transparent;
+    background: #45489a;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .btn:hover {
+    background-color: #2980B9;
+  }
+  
+  .login-link {
+    font-size: 12px;
+    color: #444;
+    display: block;
+      margin-top: 12px;
+  }
+
+#foto
+{
+  position:relative;
+  width: 40%;
+  height: 40%;
+  text-align:center;
+  margin: 20%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+label{
+  text-align: left;
+  font-size: 22px;
+  vertical-align:top;
+  margin-left: 0px;
+  margin-right: 80%;
+
+
+}
+
+table{
+  padding-left: 15%;
+  padding-right: 1%;
+}
+
