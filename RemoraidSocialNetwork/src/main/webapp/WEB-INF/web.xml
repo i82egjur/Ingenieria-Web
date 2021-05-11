@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>Remoraid</display-name>
+<welcome-file-list>
+<welcome-file>index.html</welcome-file>
+<welcome-file>index.htm</welcome-file>
+<welcome-file>index.jsp</welcome-file>
+<welcome-file>default.html</welcome-file>
+<welcome-file>default.htm</welcome-file>
+<welcome-file>default.jsp</welcome-file>
+</welcome-file-list>
+<!--  Paginas de error  -->
+<error-page>
+<error-code>500</error-code>
+<location>/error/JSP/error500.jsp</location>
+</error-page>
+<error-page>
+<error-code>404</error-code>
+<location>/error/error404.jsp</location>
+</error-page>
+<!-- Servlets  -->
+
+<!--  Login  -->
+<servlet>
+<servlet-name>LoginController</servlet-name>
+<servlet-class>es.uco.iw.mvc.controlador.GestRemora.controlAcceso.LoginController</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>LoginController</servlet-name>
+<url-pattern>/LoginController</url-pattern>
+</servlet-mapping>
+
+<!--  Register  -->
+<servlet>
+<servlet-name>RegistroController</servlet-name>
+<servlet-class>es.uco.iw.mvc.controlador.GestRemora.controlAcceso.RegistroController</servlet-class>
+</servlet>
+
+<servlet>
+	<description>
+	</description>
+	<display-name>AnnounceProject</display-name>
+	<servlet-name>AnnounceProject</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.AnnounceProject.impl.AnnounceProject</servlet-class>
+</servlet>
+
+
+
+<servlet>
+	<description>
+	</description>
+	<display-name>CrearProyecto</display-name>
+	<servlet-name>CrearProyecto</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.CrearProyecto</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>ActualizarProyecto</display-name>
+	<servlet-name>ActualizarProyecto</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.ActualizarProyecto</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>EliminarProyecto</display-name>
+	<servlet-name>EliminarProyecto</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.EliminarProyecto</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>ValorarUsuario</display-name>
+	<servlet-name>ValorarUsuario</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.ValorarUsuario</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>PromocionarUsuario</display-name>
+	<servlet-name>PromocionarUsuario</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.PromocionarUsuario</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>CompartirProyecto</display-name>
+	<servlet-name>CompartirProyecto</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.CompartirProyecto</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>AnunciarProyecto</display-name>
+	<servlet-name>AnunciarProyecto</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.clienteTT.Proyecto.AnunciarProyecto</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>BanearUsuario</display-name>
+	<servlet-name>BanearUsuario</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.administradorTiburonBlanco.gestionarUsuarios.BanearUsuario</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>ReportarProyecto</display-name>
+	<servlet-name>ReportarProyecto</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.administradorTiburonBlanco.gestionarProyectos.ReportarProyecto</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>CambiarCategoriaProyecto</display-name>
+	<servlet-name>CambiarCategoriaProyecto</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.administradorTiburonBlanco.gestionarProyectos.CambiarCategoriaProyecto</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>ModificarPerfil</display-name>
+	<servlet-name>ModificarPerfil</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.GestRemora.ModificarPerfil</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>EliminarPerfil</display-name>
+	<servlet-name>EliminarPerfil</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.GestRemora.EliminarPerfil</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>AddSkill</display-name>
+	<servlet-name>AddSkill</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.GestRemora.gestSkill.AddSkill</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>EliminarSkill</display-name>
+	<servlet-name>EliminarSkill</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.GestRemora.gestSkill.EliminarSkill</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>ConsultarPerfil</display-name>
+	<servlet-name>ConsultarPerfil</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.GestRemora.ConsultarPerfil</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>CrearChat</display-name>
+	<servlet-name>CrearChat</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.GestRemora.gestChat.CrearChat</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>EliminarChat</display-name>
+	<servlet-name>EliminarChat</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.GestRemora.gestChat.EliminarChat</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>AddMiembroChat</display-name>
+	<servlet-name>AddMiembroChat</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.GestRemora.gestChat.gestMiembrosChat.AddMiembroChat</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>EliminarMiembroChat</display-name>
+	<servlet-name>EliminarMiembroChat</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.GestRemora.gestChat.gestMiembrosChat.EliminarMiembroChat</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>BuscarUsuario</display-name>
+	<servlet-name>BuscarUsuario</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.buscar.BuscarUsuario</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>BuscarProyecto</display-name>
+	<servlet-name>BuscarProyecto</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.buscar.BuscarProyecto</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>enviarSolicitudColaboracion</display-name>
+	<servlet-name>enviarSolicitudColaboracion</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.clienteTT.enviarSolicitudColaboracion</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>aceptarSolicitudColaboracion</display-name>
+	<servlet-name>aceptarSolicitudColaboracion</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.clienteTT.colaboracion.aceptarSolicitudColaboracion</servlet-class>
+</servlet>
+<servlet>
+	<description>	</description>
+
+	<display-name>ActualizarInformacionRemora</display-name>
+	<servlet-name>ActualizarInformacionRemora</servlet-name>
+	<servlet-class>es.uco.iw.mvc.controlador.GestRemora.ActualizarInformacionRemora</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>RegistroController</servlet-name>
+<url-pattern>/RegistroController</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>AnnounceProject</servlet-name>
+	<url-pattern>/AnnounceProject</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>CrearProyecto</servlet-name>
+	<url-pattern>/CrearProyecto</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>ActualizarProyecto</servlet-name>
+	<url-pattern>/ActualizarProyecto</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>EliminarProyecto</servlet-name>
+	<url-pattern>/EliminarProyecto</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>ValorarUsuario</servlet-name>
+	<url-pattern>/ValorarUsuario</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>PromocionarUsuario</servlet-name>
+	<url-pattern>/PromocionarUsuario</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>CompartirProyecto</servlet-name>
+	<url-pattern>/CompartirProyecto</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>AnunciarProyecto</servlet-name>
+	<url-pattern>/AnunciarProyecto</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>BanearUsuario</servlet-name>
+	<url-pattern>/BanearUsuario</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>ReportarProyecto</servlet-name>
+	<url-pattern>/ReportarProyecto</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>CambiarCategoriaProyecto</servlet-name>
+	<url-pattern>/CambiarCategoriaProyecto</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>ModificarPerfil</servlet-name>
+	<url-pattern>/ModificarPerfil</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>EliminarPerfil</servlet-name>
+	<url-pattern>/EliminarPerfil</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>AddSkill</servlet-name>
+	<url-pattern>/AddSkill</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>EliminarSkill</servlet-name>
+	<url-pattern>/EliminarSkill</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>ConsultarPerfil</servlet-name>
+	<url-pattern>/ConsultarPerfil</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>CrearChat</servlet-name>
+	<url-pattern>/CrearChat</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>EliminarChat</servlet-name>
+	<url-pattern>/EliminarChat</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>AddMiembroChat</servlet-name>
+	<url-pattern>/AddMiembroChat</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>EliminarMiembroChat</servlet-name>
+	<url-pattern>/EliminarMiembroChat</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>BuscarUsuario</servlet-name>
+	<url-pattern>/BuscarUsuario</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>BuscarProyecto</servlet-name>
+	<url-pattern>/BuscarProyecto</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>enviarSolicitudColaboracion</servlet-name>
+	<url-pattern>/enviarSolicitudColaboracion</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>aceptarSolicitudColaboracion</servlet-name>
+	<url-pattern>/aceptarSolicitudColaboracion</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>ActualizarInformacionRemora</servlet-name>
+	<url-pattern>/ActualizarInformacionRemora</url-pattern>
+</servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+<context-param>
+<param-name>direccionServidor</param-name>
+<param-value>jdbc:mysql://oraclepr.uco.es:3306/i82egjur</param-value>
+</context-param>
+<context-param>
+<param-name>usuario</param-name>
+<param-value>Remoraid</param-value>
+</context-param>
+<context-param>
+<param-name>password</param-name>
+<param-value>Remoraid</param-value>
+</context-param>
+<context-param>
+<param-name>driver</param-name>
+<param-value>com.mysql.jdbc.Driver</param-value>
+</context-param>
+<context-param>
+<param-name>pathProperties</param-name>
+<param-value>../sql.properties</param-value>
+</context-param>
+<error-page>
+    <error-code>404</error-code>
+    <location>/jsp/error404.jsp</location>
+</error-page>
+<error-page>
+    <error-code>500</error-code>
+    <location>/jsp/error500.jsp</location>
+</error-page>
+
+
+</web-app>
